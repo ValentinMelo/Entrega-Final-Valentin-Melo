@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-navegador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    background: black;
+    color: transparent;
+    height: 80px;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .top-navegador a {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    padding: 20px 8px;
+
+  }
+  
+
+.topnav {
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+
+  }
+
+.titulo {
+margin-right: 100px;
+  }
+
+.menu-principal{
+
+margin-left: 100px;
+
+}
+
